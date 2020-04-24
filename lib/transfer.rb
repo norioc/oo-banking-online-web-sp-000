@@ -25,6 +25,8 @@
     
   end
   
+  def reject_transfer
+    
   
   
   
