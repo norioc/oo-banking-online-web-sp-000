@@ -30,6 +30,10 @@
       receiver.balance -= amount 
       sender.balance += amount 
       self.status = "reversed"
+    else 
+      reject_transfer
+    end
+  end 
   
   def reject_transfer
     self.status = "rejected"
