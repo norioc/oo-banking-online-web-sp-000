@@ -25,6 +25,9 @@
     
   end
   
+  def reverse_transfer
+    if valid? && sender.
+  
   def reject_transfer
     self.status = "rejected"
   end
