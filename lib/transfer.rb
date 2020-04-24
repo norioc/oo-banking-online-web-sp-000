@@ -7,7 +7,7 @@
     @status = "pending"
     @sender = sender
     @receiver = receiver 
-    @amount = 50 
+    @amount = amount
   end 
   
   def valid? 
