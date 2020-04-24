@@ -20,7 +20,8 @@
       receiver.balance += amount
       self.status = "complete"
     else
-      status 
+      reject_transfer
+    end
     
   end
   
