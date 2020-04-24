@@ -29,7 +29,7 @@
     if valid? && receiver.balance > amount && self.status = "complete"
       receiver.balance -= amount 
       sender.balance += amount 
-      self.status = 
+      self.status = "reversed"
   
   def reject_transfer
     self.status = "rejected"
