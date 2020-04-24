@@ -15,7 +15,7 @@
   end
   
   def execute_transaction 
-    if valid?
+    if valid? && sender.balance>amount 
     
     
   end
