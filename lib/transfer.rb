@@ -26,7 +26,7 @@
   end
   
   def reject_transfer
-    
+    self.status = ""
   
   
   
